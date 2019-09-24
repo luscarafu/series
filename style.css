@@ -1,0 +1,48 @@
+body {
+    background-color: #ccc;
+    background-image: url(https://www.sofast.com.br/img/2018/11/blog/6231/netflix-logo.png);
+    background-size: cover;
+}
+a {
+	text-decoration: none;
+}
+
+#site_title {
+	font-family: 'Mansalva', cursive;
+	font-weight: 300;
+	text-align: center;
+}
+
+.category_title {
+	font-family: 'Mansalva', cursive;
+	font-weight: 300;
+	color: rgb(247, 5, 235);
+}
+
+.col-33 {
+	width: 29.3%;
+	float: left;
+	background-color: #fff;
+	padding: 5px 1%;
+	margin: 1%;
+	border-radius: 12px;
+	box-shadow: 5px 10px #888;
+}
+
+ul {
+	font-family: Helvetica;
+	padding: 0 12px;
+	list-style: none;
+} 
+
+li::before {
+  	content: "⇝"; /* Insert content that looks like bullets */
+  	padding-right: 5px;
+}
+
+
+@media (max-width: 600px) { 
+	.col-33 {
+		width: 96%;
+	}
+}
